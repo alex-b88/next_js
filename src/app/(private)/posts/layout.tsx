@@ -11,6 +11,7 @@ const PostsLayout = ({ children }: Props) => {
     return (
         <>
             {children}
+
         </>
     );
 };

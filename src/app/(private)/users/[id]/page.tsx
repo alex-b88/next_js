@@ -12,6 +12,7 @@ const User = async ({params}:{params: Props}) => {
     return (
         <>
             {user.name}
+
         </>
     );
 };

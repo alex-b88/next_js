@@ -16,6 +16,7 @@ const Menu = () => {
                 </li>
                 <li>
                     <Link href={"/comments"}>comments</Link>
+
                 </li>
             </ul>
         </div>

@@ -10,6 +10,7 @@ const PostsComponent:FC<Props> = ({posts}) => {
             {
                 posts.map(post => (<div key={post.id}>
                     <Link href={'/posts/' + post.id}>{post.title}</Link>
+
                 </div>))
             }
         </>

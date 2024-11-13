@@ -10,6 +10,7 @@ const UsersComponent:FC<Props> = ({users}) => {
             {
                 users.map(user => (<div key={user.id}>
                     <Link href={'/users/' + user.id}>{user.name}</Link>
+
                 </div>))
             }
         </div>

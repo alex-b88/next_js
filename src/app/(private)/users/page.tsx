@@ -10,6 +10,7 @@ const UsersPage = async () => {
     return (
         <div>
             <UsersComponent users={users}/>
+
         </div>
     );
 };

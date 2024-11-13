@@ -13,6 +13,7 @@ const Post = async ({params}:{params:Props}) => {
         <div>
             <h3>{post.title}</h3>
             <div>{post.body}</div>
+
         </div>
     );
 };

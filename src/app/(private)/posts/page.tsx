@@ -9,6 +9,7 @@ const PostsPage = async () => {
     return (
         <div>
             <PostsComponent posts={posts}/>
+
         </div>
     );
 };

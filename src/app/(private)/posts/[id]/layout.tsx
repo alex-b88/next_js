@@ -13,7 +13,6 @@ const PostLayOut = ({ children }: Props) => {
     return (
         <>
             {children}
-
         </>
     );
 };
